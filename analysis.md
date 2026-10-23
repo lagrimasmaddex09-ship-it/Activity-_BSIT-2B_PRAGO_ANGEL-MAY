@@ -1,0 +1,3 @@
+# Analysis: Stacks and Queues
+
+A linked-list stack pushes at the head because inserting a new node at the beginning takes O(1) time. If we insert at the tail of a singly linked list, we may need to traverse the list, which takes O(n) time. The array queue must be circular so that empty spaces at the beginning can be reused after removing elements. Using a circular array prevents wasted space and allows enqueue and dequeue operations to run in O(1) time.
